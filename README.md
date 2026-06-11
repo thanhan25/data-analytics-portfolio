@@ -38,6 +38,6 @@ Rather than loose code snippets, each project listed below links directly to its
 
 ## 📬 Contact & Professional Links
 
-* **LinkedIn:** [linkedin.com/in/YOUR-LINKEDIN-URL](https://linkedin.com/in/) *(👉 Replace with your actual LinkedIn link)*
-* **Email:** [Your Professional Email]
+* **LinkedIn:** [linkedin.com/in/An-Vo](https://www.linkedin.com/in/an-vo-52226941/) 
+* **Email:** thanhan25@gmail.com
 * **Location:** Bonn, Germany (Open to Relocation across European Business Hubs)
