@@ -1,20 +1,43 @@
-# Quantitative Data Analysis & Data Science Portfolio
+# Quantitative Data Analytics & Data Science Portfolio
 
-Welcome to my central portfolio repository. This directory contains end-to-end projects bridging econometric theory, statistical modeling, and production-level data engineering pipelines.
+Welcome to my central portfolio directory. This hub houses a curated selection of production-level data projects bridging quantitative economics, structural data engineering (ETL) pipelines, and statistical machine learning. 
+
+Rather than loose code snippets, each project listed below links directly to its own independent, fully reproducible repository containing comprehensive deployment instructions, dependency files (`requirements.txt`), and verification datasets.
+
+---
 
 ## 🛠️ Project Index
 
-### 1. [Trade Performance Auditor & ETL Pipeline](./01_trade_performance_auditor/)
-* **Focus:** Data Engineering, Relational Database Design, Data Integrity.
-* **Core Tech:** Python, SQL (PostgreSQL), ETL Architecture.
-* **Summary:** Engineered an automated data pipeline to ingest, clean, and validate transactional performance data, replacing manual analytics tracking with an optimized relational database layer.
+### 1. [Trade Performance Auditor & ETL Pipeline ↗](https://github.com/thanhan25/trade-performance-auditor)
+* **Core Track:** Data Engineering & Database Architecture
+* **Tech Stack:** Python, SQL (SQLite/PostgreSQL), ETL Pipelines, Data Validation
+* **The Solution:** Engineered an end-to-end automated ETL pipeline designed to ingest, structurally clean, and validate high-frequency transactional data. Built strict relational SQL database schemas with primary/foreign key integrity, completely replacing manual tracking workflows with a robust, automated auditing layer.
+* **Key Skills Proved:** Relational database design, data cleaning, automated pipelines, object-oriented Python, data validation.
 
-### 2. [Quantitative Performance Analytics Engine](./02_performance_analytics_engine/)
-* **Focus:** Business Intelligence, Data Manipulation, Trend Analysis.
-* **Core Tech:** Python (Pandas, NumPy), Aggregate Metrics.
-* **Summary:** Transformed raw database tables into strategic high-level performance KPIs, generating insights on volatility behaviors and risk-adjusted return expectations.
+### 2. [Retail Media CLV Optimizer ↗](https://github.com/thanhan25/retail-media-clv-optimizer)
+* **Core Track:** Data Science & Customer Analytics
+* **Tech Stack:** Python, BG/NBD Models, Gamma-Gamma Frameworks, Pandas, NumPy
+* **The Solution:** Developed an advanced predictive analytics engine designed to model and optimize Customer Lifetime Value (CLV) for retail media environments. By implementing probabilistic BG/NBD and Gamma-Gamma models, the system tracks and forecasts customer transaction frequencies, churn risks, and future monetary value distributions to maximize marketing ROI.
+* **Key Skills Proved:** Probabilistic modeling, predictive analytics, statistical machine learning, customer behavior tracking.
 
-### 3. [Econometric Forecasting & Time-Series Frameworks](./03_econometric_forecasting/)
-* **Focus:** Statistical Inference, Causal Modeling, Predictive Analytics.
-* **Core Tech:** Python (Statsmodels), R, Regression Frameworks.
-* **Summary:** Applied quantitative econometrics models to track, isolate, and forecast volatility trends and data distributions using financial datasets.
+### 3. [Pricing A/B Testing Simulator ↗](https://github.com/thanhan25/pricing-ab-simulator)
+* **Core Track:** Quantitative Economics & Statistical Inference
+* **Tech Stack:** Python, Statistical Hypothesis Testing, Causal Inference, Power Analysis
+* **The Solution:** Built a rigorous simulation and evaluation framework for pricing-focused A/B tests. Leveraging advanced econometric and statistical mechanics, the engine runs hypothesis testing, calculates optimal sample sizes via power analysis, and evaluates price elasticity and treatment effects to drive data-backed strategic pricing decisions.
+* **Key Skills Proved:** A/B testing design, statistical inference, hypothesis testing, causal inference, economic modeling.
+
+---
+
+## 🧰 Technical Toolbox
+
+* **Languages:** Python (Pandas, NumPy, Scikit-Learn, Statsmodels), SQL (PostgreSQL, SQLite), R
+* **Data Infrastructure:** End-to-End ETL Pipelines, Relational Database Design, Data Integrity/Validation Rules
+* **Domain Expertise:** Econometrics, Customer Lifetime Value (CLV) Modeling, A/B Testing Design, Statistical Inference
+
+---
+
+## 📬 Contact & Professional Links
+
+* **LinkedIn:** [linkedin.com/in/YOUR-LINKEDIN-URL](https://linkedin.com/in/) *(👉 Replace with your actual LinkedIn link)*
+* **Email:** [Your Professional Email]
+* **Location:** Bonn, Germany (Open to Relocation across European Business Hubs)
