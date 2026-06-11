@@ -37,7 +37,6 @@ Rather than loose code snippets, each project listed below links directly to its
 ---
 
 ## 📬 Contact & Professional Links
-
-* **LinkedIn:** [www.linkedin.com/in/an-vo-quant](www.linkedin.com/in/an-vo-quant) 
+* **LinkedIn:** [linkedin.com/in/An-Vo](https://www.linkedin.com/in/an-vo-quant)
 * **Email:** thanhan25@gmail.com
 * **Location:** Bonn, Germany (Open to Relocation across European Business Hubs)
