@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>An Vo | Master Data Analytics & Engineering Portfolio</h1>
-  <p><b>Quantitative Data Engineer · BI Architect · LLM Infrastructure</b></p>
+  <h1>An Vo | Master Data Analytics & Data Science Portfolio</h1>
+  <p><b>Data Analyst · BI Analyst · Junior Data Scientist</b></p>
   <p>Quantitative Economics Master's Candidate @ University of Bonn</p>
   
   <p>
@@ -10,62 +10,60 @@
 
   <p>
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
     <img src="https://img.shields.io/badge/Google_BigQuery-669DF6?style=flat-square&logo=google-cloud&logoColor=white" />
-    <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-    <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" />
-    <img src="https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
-    <img src="https://img.shields.io/badge/CI/CD-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
+    <img src="https://img.shields.io/badge/SciPy_&_NumPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" />
+    <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
   </p>
 </div>
 
 <br>
 
-> **My Engineering Philosophy:** I treat data inputs defensively, optimize lookup architectures to strict $O(\log n)$ efficiency, and enforce rigorous automated validation gates (CI/CD) before any data hits production warehouses or localized model spaces. Every pipeline here is decoupled, structured under PEP 517 standard packaging configurations, and protected by test-driven development (TDD).
+> **My Analytics Philosophy:** I believe in bridging the gap between rigorous statistical modeling and actionable business strategy. I focus on clean data preparation, exploratory data analysis (EDA), robust machine learning/econometric models, and delivering clear insights that empower stakeholders to make data-driven decisions.
 
 <br>
 
-## 🚀 Flagship Architecture & Case Studies
+## 🚀 Flagship Case Studies
 
-Below are the 4 core repositories demonstrating production-ready analytical engines, database pipelines, and core ML infrastructures.
+Below are 4 core repositories demonstrating my capabilities across Data Analysis, Statistical Inference, Generative AI, and Relational SQL reporting.
 
 ### 1. [Retail Media Campaign & Predictive CLV Engine](https://github.com/thanhan25/retail-media-clv-optimizer) 
-**`Cloud Warehousing Infrastructure & Probabilistic Modeling`**
-* **Objective:** Build an end-to-end cloud ingestion track capable of normalizing volatile transactional data arrays and executing parallel statistical models to map long-term customer monetization paths.
-* **Execution:** Pythonic streaming pipeline mapping raw events into Google Cloud BigQuery. Triggers mathematical tracking modules utilizing **BG/NBD** and **Gamma-Gamma submodels** for 12-month Customer Lifetime Value forecasts.
-* **Quality Gate:** Context-managed orchestration with automated transaction rollbacks. Verified **98.67% unit test coverage**.
+**`Predictive Analytics & Business Intelligence`**
+* **Objective:** Extract and transform volatile transactional data to forecast long-term customer monetization paths for strategic marketing optimization.
+* **Methodology:** Developed Python scripts to clean and aggregate purchase events into **Google Cloud BigQuery**. Engineered mathematical tracking modules utilizing **BG/NBD** and **Gamma-Gamma probabilistic models** for 12-month Customer Lifetime Value (CLV) forecasts.
+* **Business Impact:** Delivered high-trust, decision-ready datasets enabling Finance and Marketing teams to evaluate cohort profitability and optimize ad spend ROI.
 
 ### 2. [Pricing A/B Testing & Market Optimization Simulator](https://github.com/thanhan25/pricing-ab-simulator)
-**`Statistical Inference, Causal Architecture & Elasticity Scaling`**
-* **Objective:** Deploy a rigorous statistical simulation environment to test dynamic price variations and isolate authentic causal treatment effects while filtering out environmental noise.
-* **Execution:** Multi-threaded pricing hypothesis testing tracks. Calculates localized price elasticity configurations and applies advanced econometric estimation loops.
-* **Quality Gate:** Programmatic statistical power analysis modules to compute optimal runtime sample sizes, guarding against type-I/II engineering errors.
+**`Causal Inference & Experiment Design`**
+* **Objective:** Design a statistical simulation environment to test dynamic price variations and measure authentic causal treatment effects.
+* **Methodology:** Designed an A/B testing framework in Python using advanced econometric estimation loops and causal inference algorithms to map consumer demand variations while isolating external noise.
+* **Statistical Rigor:** Conducted programmatic statistical power analysis to compute optimal experimental sample sizes, guarding against type-I and type-II evaluation errors.
 
 ### 3. [Automated Invoice Ledger Parser & LLM Fine-Tuning Pipeline](https://github.com/thanhan25/invoice-llm-pipeline)
-**`Generative AI Data Infrastructure & Dataset Curation`**
-* **Objective:** An automated extraction pipeline capable of parsing structured accounting metadata out of highly volatile financial ledger layouts.
-* **Execution:** Token-aware sliding-window character segmentation tool. Model completions are programmatically forced into rigid schema patterns using dynamic JSON constraints.
-* **Quality Gate:** Automated validation loops filter processing noise and structure clean outputs into valid `.jsonl` conversational training sequences for Supervised Fine-Tuning (SFT).
+**`Generative AI & Unstructured Data Parsing`**
+* **Objective:** Deploy NLP models to automate the extraction of complex accounting metadata from volatile, unstructured financial ledger layouts.
+* **Methodology:** Engineered a custom text parser with token-aware sliding-window segmentation. Forced LLM completions into rigid schema patterns using dynamic JSON constraints.
+* **Dataset Curation:** Built automated data cleaning loops to filter processing anomalies, structuring the output into clean `.jsonl` conversational training sequences ready for Supervised Fine-Tuning (SFT).
 
-### 4. [Trade Performance Auditor & Database Ingestion Pipeline](https://github.com/thanhan25/trade-performance-auditor)
-**`High-Velocity Stream Ingestion & Relational Data Governance`**
-* **Objective:** Architect a robust data infrastructure asset designed to ingest transactional stream logs, clean raw multi-source data records, and track operational sequences.
-* **Execution:** Independent package distributed via PEP 517 guidelines. Runs real-time duplicate sweeps and binds parameters to strict primary and foreign key constraints.
-* **Quality Gate:** Relational queries optimized to strict **$O(\log n)$ efficiency** via strategic B-Tree indexing. Locked behind a **90.91% verified testing gate**.
+### 4. [Trade Performance Auditor & Database Pipeline](https://github.com/thanhan25/trade-performance-auditor)
+**`Exploratory Data Analysis (EDA) & Relational SQL`**
+* **Objective:** Ingest, clean, and audit multi-source transactional stream logs to establish data governance and feed BI tools.
+* **Data Preparation:** Authored Python toolsets to execute real-time duplicate sweeps and flag anomalies prior to database ingestion.
+* **Relational Analytics:** Designed optimized SQL schemas (SQLite). Applied strict primary/foreign key constraints and strategic B-Tree indexing to ensure lightning-fast analytical queries ($O(\log n)$ efficiency) for downstream dashboarding.
 
 ---
 
 ## ⚙️ Core Technical Competencies
 
-| Domain | Technologies & Methodologies |
+| Domain | Tools & Methodologies |
 | :--- | :--- |
-| **Languages** | Python (Pandas, NumPy, SciPy, Lifetimes), ANSI SQL, R |
-| **Data Infrastructure** | Google Cloud BigQuery, PostgreSQL, SQLite, B-Tree Indexing |
-| **Advanced Modeling** | BG/NBD, Gamma-Gamma, Causal Inference, Power Analysis |
-| **LLM Engineering** | Token Optimization, JSON Schema Validation, SFT Data Prep |
-| **Software Engineering** | PEP 517 Packaging, PyTest, GitHub Actions (CI/CD) |
+| **Data Analysis & BI** | Python (Pandas, NumPy), Standard SQL, Google BigQuery, Power BI |
+| **Data Science & ML** | Predictive Modeling (BG/NBD, Gamma-Gamma), Causal Inference, A/B Testing |
+| **AI & Text Analytics** | LLM Prompt Engineering, JSON Schema Parsing, NLP Token Optimization |
+| **Data Preparation** | ETL/ELT Pipelines, Exploratory Data Analysis (EDA), Relational Schema Design |
 
 <br>
 
 <div align="center">
-  <i>"Transforming abstract operational layers into definitive business intelligence."</i>
+  <i>"Transforming abstract operational logs into definitive, data-driven business strategy."</i>
 </div>
