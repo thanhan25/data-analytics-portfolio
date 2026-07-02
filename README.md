@@ -19,7 +19,7 @@
 
 <br>
 
-> **My Analytics Philosophy:** I bridge the gap between rigorous econometric modeling and production-ready data pipelines. I focus on clean data governance, high-velocity analytical infrastructure ($O(\log n)$ efficiency), and deploying transparent, decision-ready statistical systems that empower executive corporate strategy.
+> **My Analytics Philosophy:** I bridge the gap between rigorous econometric modeling and production-ready data pipelines. I focus on clean data governance, high-velocity analytical infrastructure (O(log n) efficiency), and deploying transparent, decision-ready statistical systems that empower executive corporate strategy.
 
 <br>
 
