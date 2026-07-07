@@ -29,11 +29,10 @@
 *Transitioning traditional association rules into automated margin expansion.*
 * **Tech Stack:** Python (uv, FastAPI, DuckDB), Streamlit, NetworkX.
 * **Impact:** Engineered an FP-Growth recommendation engine that replaces standard statistical 'Lift' with an **Expected Commercial Value (ECV)** metric. This allows category managers to prioritize cross-selling bundles based on gross margin impact rather than just purchase probability.
-* [View Executive Dashboard](https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/dashboard.PNG) | [Read Strategy PDF](https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/executive_summary.pdf)### [🛒 FMCG Market Basket Studio](https://github.com/thanhan25/fmcg-market-basket-studio)
-*Transitioning traditional association rules into automated margin expansion.*
-* **Tech Stack:** Python (uv, FastAPI, DuckDB), Streamlit, NetworkX.
-* **Impact:** Engineered an FP-Growth recommendation engine that replaces standard statistical 'Lift' with an **Expected Commercial Value (ECV)** metric. This allows category managers to prioritize cross-selling bundles based on gross margin impact rather than just purchase probability.
-* [View Executive Dashboard](https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/dashboard.PNG) | [Read Strategy PDF](https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/executive_summary.pdf)
+<div align="center">
+  <a href="https://github.com/thanhan25/fmcg-market-basket-studio"><img src="https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/dashboard.PNG" alt="Merger Simulation Dashboard Preview" width="800"></a>
+</div>
+* [Read Strategy PDF](https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/executive_summary.pdf)
 
 ### ⚖️ 2. [Merger Simulation & Market Concentration Analyzer](https://github.com/thanhan25/merger-simulation-hhi-analyzer)
 **`Antitrust Economics, Streamlit & Google Cloud BigQuery`**
