@@ -25,7 +25,17 @@
 
 ## 🚀 Flagship Case Studies
 
-### ⚖️ 1. [Merger Simulation & Market Concentration Analyzer](https://github.com/thanhan25/merger-simulation-hhi-analyzer)
+### 🛒 1. [FMCG Market Basket Studio](https://github.com/thanhan25/fmcg-market-basket-studio)
+*Transitioning traditional association rules into automated margin expansion.*
+* **Tech Stack:** Python (uv, FastAPI, DuckDB), Streamlit, NetworkX.
+* **Impact:** Engineered an FP-Growth recommendation engine that replaces standard statistical 'Lift' with an **Expected Commercial Value (ECV)** metric. This allows category managers to prioritize cross-selling bundles based on gross margin impact rather than just purchase probability.
+* [View Executive Dashboard](https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/dashboard.PNG) | [Read Strategy PDF](https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/executive_summary.pdf)### [🛒 FMCG Market Basket Studio](https://github.com/thanhan25/fmcg-market-basket-studio)
+*Transitioning traditional association rules into automated margin expansion.*
+* **Tech Stack:** Python (uv, FastAPI, DuckDB), Streamlit, NetworkX.
+* **Impact:** Engineered an FP-Growth recommendation engine that replaces standard statistical 'Lift' with an **Expected Commercial Value (ECV)** metric. This allows category managers to prioritize cross-selling bundles based on gross margin impact rather than just purchase probability.
+* [View Executive Dashboard](https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/dashboard.PNG) | [Read Strategy PDF](https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/executive_summary.pdf)
+
+### ⚖️ 2. [Merger Simulation & Market Concentration Analyzer](https://github.com/thanhan25/merger-simulation-hhi-analyzer)
 **`Antitrust Economics, Streamlit & Google Cloud BigQuery`**
 <div align="center">
   <a href="https://github.com/thanhan25/merger-simulation-hhi-analyzer"><img src="https://raw.githubusercontent.com/thanhan25/merger-simulation-hhi-analyzer/main/assets/social-preview.png" alt="Merger Simulation Dashboard Preview" width="800"></a>
@@ -35,24 +45,24 @@
 * **Methodology:** Developed a high-performance Python package (`merger-sim`) utilizing strict `Pydantic` data validation to calculate Pre/Post-Merger Herfindahl-Hirschman Index (HHI) metrics. Engineered a native SQL pipeline to query cloud data warehouses directly.
 * **Delivery:** Built an institutional-grade Streamlit web dashboard featuring interactive parameter controls, dynamic Plotly dial gauges mapping regulatory thresholds, and stacked waterfall market share visualizations.
 
-### ⚡ 2. [Alpha Signal Terminal: Equity Impact Predictor](https://github.com/thanhan25/equity-impact-predictor)
+### ⚡ 3. [Alpha Signal Terminal: Equity Impact Predictor](https://github.com/thanhan25/equity-impact-predictor)
 **`Machine Learning, NLP & Explainable AI (XAI)`**
 * **Objective:** Forecast short-term Cumulative Abnormal Returns (CAR) on equities by quantifying unstructured market news and macroeconomic catalysts.
 * **Methodology:** Built an end-to-end Python ETL pipeline feeding a **Zero-Shot NLP Classifier (`BART-Large-MNLI`)** to score thematic sentiment. Trained a **LightGBM** regressor on historical feature matrices (sentiment, 30D momentum, volatility drag).
 * **Delivery:** Developed an institutional-grade Streamlit web application featuring **SHAP value visualization** (Explainable AI), dynamic event-study trajectory modeling, and live feature-drift governance metrics.
 
-### 📊 3. [Retail Media Campaign & Predictive CLV Engine](https://github.com/thanhan25/retail-media-clv-optimizer) 
+### 📊 4. [Retail Media Campaign & Predictive CLV Engine](https://github.com/thanhan25/retail-media-clv-optimizer) 
 **`Predictive Analytics & Cloud Data Warehousing`**
 * **Objective:** Extract and transform volatile transactional data to forecast long-term customer monetization paths for strategic marketing optimization.
 * **Methodology:** Developed Python scripts to clean and aggregate purchase events into **Google Cloud BigQuery**. Engineered mathematical tracking modules utilizing **BG/NBD** and **Gamma-Gamma probabilistic models** for 12-month Customer Lifetime Value (CLV) forecasts.
 * **Business Impact:** Delivered high-trust, decision-ready datasets enabling Finance and Marketing teams to evaluate cohort profitability and optimize ad spend ROI.
 
-### 🤖 4. [Automated Invoice Ledger Parser & LLM Pipeline](https://github.com/thanhan25/invoice-llm-pipeline)
+### 🤖 5. [Automated Invoice Ledger Parser & LLM Pipeline](https://github.com/thanhan25/invoice-llm-pipeline)
 **`Generative AI & Unstructured Data Parsing`**
 * **Objective:** Deploy NLP models to automate the extraction of complex accounting metadata from volatile, unstructured financial ledger layouts.
 * **Methodology:** Engineered a custom text parser with token-aware sliding-window segmentation. Forced LLM completions into rigid schema patterns using dynamic JSON constraints.
 
-### 🧪 5. [Pricing A/B Testing & Market Optimization Simulator](https://github.com/thanhan25/pricing-ab-simulator)
+### 🧪 6. [Pricing A/B Testing & Market Optimization Simulator](https://github.com/thanhan25/pricing-ab-simulator)
 **`Causal Inference & Experiment Design`**
 * **Objective:** Design a statistical simulation environment to test dynamic price variations and measure authentic causal treatment effects.
 * **Methodology:** Designed an A/B testing framework in Python using advanced econometric estimation loops and causal inference algorithms to map consumer demand variations while isolating external noise.
