@@ -27,12 +27,12 @@
 
 ### 🛒 1. [FMCG Market Basket Studio](https://github.com/thanhan25/fmcg-market-basket-studio)
 *Transitioning traditional association rules into automated margin expansion.*
-* **Tech Stack:** Python (uv, FastAPI, DuckDB), Streamlit, NetworkX.
-* **Impact:** Engineered an FP-Growth recommendation engine that replaces standard statistical 'Lift' with an **Expected Commercial Value (ECV)** metric. This allows category managers to prioritize cross-selling bundles based on gross margin impact rather than just purchase probability.
+* **Objective:** Transition traditional market basket association rules into an automated margin expansion engine for E-commerce recommendations.
+* **Methodology:** Engineered an out-of-core FP-Growth pipeline (via DuckDB) to process high-volume transactions. Replaced standard statistical 'Lift' with a custom Expected Commercial Value (ECV) metric to prioritize gross margin impact over raw purchase probability.
+* **Delivery:** Deployed an interactive Streamlit dashboard featuring NetworkX affinity graphs for category managers, alongside a Pydantic-validated FastAPI endpoint for real-time checkout integration. Includes a comprehensive [Executive Summary PDF](https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/executive_summary.pdf)
 <div align="center">
   <a href="https://github.com/thanhan25/fmcg-market-basket-studio"><img src="https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/dashboard.PNG" alt="Merger Simulation Dashboard Preview" width="800"></a>
 </div>
-* [Read Strategy PDF](https://github.com/thanhan25/fmcg-market-basket-studio/blob/master/assets/executive_summary.pdf)
 
 ### ⚖️ 2. [Merger Simulation & Market Concentration Analyzer](https://github.com/thanhan25/merger-simulation-hhi-analyzer)
 **`Antitrust Economics, Streamlit & Google Cloud BigQuery`**
@@ -46,6 +46,9 @@
 
 ### ⚡ 3. [Alpha Signal Terminal: Equity Impact Predictor](https://github.com/thanhan25/equity-impact-predictor)
 **`Machine Learning, NLP & Explainable AI (XAI)`**
+<div align="center">
+  <a href="https://github.com/thanhan25/equity-impact-predictor"><img src="https://github.com/thanhan25/equity-impact-predictor/blob/main/assets/dashboard-preview.PNG" alt="Merger Simulation Dashboard Preview" width="800"></a>
+</div>
 * **Objective:** Forecast short-term Cumulative Abnormal Returns (CAR) on equities by quantifying unstructured market news and macroeconomic catalysts.
 * **Methodology:** Built an end-to-end Python ETL pipeline feeding a **Zero-Shot NLP Classifier (`BART-Large-MNLI`)** to score thematic sentiment. Trained a **LightGBM** regressor on historical feature matrices (sentiment, 30D momentum, volatility drag).
 * **Delivery:** Developed an institutional-grade Streamlit web application featuring **SHAP value visualization** (Explainable AI), dynamic event-study trajectory modeling, and live feature-drift governance metrics.
